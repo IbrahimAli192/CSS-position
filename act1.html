@@ -56,19 +56,24 @@
             right: 20px;
             bottom: 10px;
         }
+        .static{
+            background-color: gray;
+            position: static;
+        }
     </style>
 </head>
 <body>
     <h1>CSS position</h1>
+    <div class="box static"></div>
     <div class="fixed">Fixed position</div>
     <div class="box relative">relative</div>
+     <div class="parent">
+    <div class="box absolute">Absolute</div>
+    </div>
     <div class="spacer"></div>
     <div class="sticky">i will stick it near the top</div>
     <div class="spacer"></div>
-    <div class="parent">
-    <div class="box absolute"></div>
-    </div>
-    <div class="spacer">absolute</div>
+    <div class="spacer"></div>
 </body>
 
 </html>
