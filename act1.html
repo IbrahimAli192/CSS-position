@@ -29,12 +29,27 @@
             max-width: fit-content;
             border: 2px solid brown;
         }
+        .box{
+            width: 120px;
+            height: 120px;
+            color: lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .relative{
+            background-color: blue;
+             position: relative;
+            left: 40px;
+            right: 40px;
+        }
     </style>
 </head>
-
 <body>
     <h1>CSS position</h1>
     <div class="fixed">Fixed position</div>
+    <div class="box relative">relative</div>
     <div class="spacer"></div>
     <div class="sticky">i will stick it near the top</div>
     <div class="spacer"></div>
